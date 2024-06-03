@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Assignment 5B</title>
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+		<div class="intro">
+            <b>Max Platt</b> <br>
+            <b>madplatt@ucsc.edu</b> <br> <br>
+			<b>Notes To Grader: Scene contains low ambient light, spotlights (streetlamps), and point light (moon). <br>
+				Click, drag, and scroll for orbit camera control.</b>
+			<br> <br>
+        </div>
+		<canvas id="webgl" width="400" height="400">
+			Please use the browser supporting "canvas".
+		</canvas>
+		<script type="importmap">
+			{
+			  "imports": {
+				"three": "https://cdn.jsdelivr.net/npm/three@0.163.0/build/three.module.js",
+				"three/addons/": "https://cdn.jsdelivr.net/npm/three@0.163.0/examples/jsm/"
+			  }
+			}
+		  </script>
+		  
+		<script type="module" src="a5a.js"></script>
+	</body>
+</html>
