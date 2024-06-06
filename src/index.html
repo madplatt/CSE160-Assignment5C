@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Assignment 5B</title>
+		<title>Assignment 5C: Cat Patrol</title>
 		<style>
 			body { margin: 0; }
 		</style>
@@ -11,13 +11,9 @@
 		<div class="intro">
             <b>Max Platt</b> <br>
             <b>madplatt@ucsc.edu</b> <br> <br>
-			<b>Notes To Grader: Scene contains low ambient light, spotlights (streetlamps), and point light (moon). <br>
-				Click, drag, and scroll for orbit camera control.</b>
-			<br> <br>
+			<b>Notes To Grader: Cat may travel to unexpected areas with performance changes, but should return to normal within 2 seconds.</b>
         </div>
-		<canvas id="webgl" width="400" height="400">
-			Please use the browser supporting "canvas".
-		</canvas>
+
 		<script type="importmap">
 			{
 			  "imports": {
@@ -26,7 +22,8 @@
 			  }
 			}
 		  </script>
-		  
-		<script type="module" src="a5a.js"></script>
+		<script type="module" src="main.js"></script>
+		<script type="module" src="rain.js"></script>
+
 	</body>
 </html>
